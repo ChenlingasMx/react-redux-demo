@@ -1,11 +1,11 @@
 import { combineReducers } from 'redux';
 
 //全局reducer
-import ComAReducer from './ComAReducer'
+import ComBReducer from './ComBReducer'
 
 //合并reducer
 var rootRedux = combineReducers({
-	ComAReducer
+	ComBReducer
 })
 
 export default rootRedux
