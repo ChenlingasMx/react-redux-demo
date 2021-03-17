@@ -1,3 +1,3 @@
 # react-redux-demo
-`一个简单的react-redux-demo练习`
+`一个简单的react-redux-demo`
 
