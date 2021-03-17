@@ -1,4 +1,4 @@
-import { post, get } from '../utils/fetchUtil';
+import { post, get } from '../http/fetch';
 import qs from 'qs';
 const { stringify } = qs;
 
