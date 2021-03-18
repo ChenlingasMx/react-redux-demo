@@ -1,0 +1,11 @@
+// jsconfig.json文件（与webpack.config.js同一目录下，具体路径具体调整）
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
