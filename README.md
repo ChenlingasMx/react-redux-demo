@@ -1,5 +1,5 @@
-# react-redux-demo
-`自己练习的一个简单的react-redux-demo`
+## react-redux-demo
+* 自己练习的一个简单的react-redux-demo`
 ```javascript
 //redux 和react-redux（关联react和redux）
 import { createStore, applyMiddleware } from 'redux';
