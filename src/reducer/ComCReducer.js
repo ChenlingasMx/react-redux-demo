@@ -5,7 +5,12 @@ const initState = {
 }
 
 function ComCReducer(state = initState, action) {
-		return state
+	switch (action.type) {
+		case "updateComC":
+			return { ...state, ...action.payload  }
+		default:
+			return state
+	}
 }
 
 export default ComCReducer
