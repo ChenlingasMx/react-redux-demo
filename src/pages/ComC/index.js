@@ -8,6 +8,7 @@ const ComC = () => {
   }
   return (
     <div>
+      <h1>ComC</h1>
       {name}
       <button onClick={handleClick.bind(this)}>点击</button>
     </div>

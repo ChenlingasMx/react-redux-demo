@@ -1,10 +1,14 @@
 import React from 'react';
 import { useSelector } from 'react-redux'
-
-const ComA = () => {
+import ComB from '../ComB/index'
+const ComA = ({ route }) => {
   const { ComBReducer } = useSelector(state => state)
   return (
-    <div>{ComBReducer.count}</div>
+    <div>
+      <h1>ComA</h1>
+      <div>{ComBReducer.count}</div>
+      <ComB />
+    </div>
   )
 }
 

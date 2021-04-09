@@ -1,12 +1,8 @@
-import ComA from '@/pages/ComA/index'
-import ComB from '@/pages/ComB/index'
-import ComC from '@/pages/ComC/index'
-function App() {
+import { renderRoutes } from "react-router-config";
+function App({ route }) {
   return (
     <div className="App">
-      <ComA />
-      <ComB />
-      <ComC />
+      {renderRoutes(route.routes)}
     </div>
   );
 }
